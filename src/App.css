@@ -1,0 +1,33 @@
+/* src/App.css */
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.contenido-principal {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.contenido-principal h2 {
+  font-size: 24px;
+}
